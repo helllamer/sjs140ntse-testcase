@@ -1,0 +1,9 @@
+Reproduceable test-case for scala.js 1.4.0 compiler exception.
+
+$ sbt
+> compile
+[info] compiling 2 Scala sources to ......./target/scala-2.13/classes ...
+[error] ## Exception when compiling 2 sources to ....../target/scala-2.13/classes
+[error] java.lang.AssertionError: assertion failed: 
+[error]   got non-term symbol: type Element_t
+...
